@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  height: 100px;
 }
 
 .nav__list {
@@ -62,13 +63,17 @@ body {
 
 /* --------- HOME SECTION --------- */
 .home {
-  height: 100vh;
+  height: calc(100vh - 100px);
+  position: relative;
 }
 
 .home__container {
   background-color: var(--pink);
   color: var(--white);
-  padding: 10rem 2rem 5rem 2rem;
+  padding: 3rem 2rem 0rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .home__title {
@@ -76,7 +81,26 @@ body {
 }
 
 .home__description {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+
+.home__images {
+  position: relative;
+}
+
+.home__blob {
+  position: absolute;
+  width: 600px; 
+  top: 0;
+  left: -10rem;
+}
+
+.home__donut {
+  position: relative;
+  height: 550px;
+  z-index: 1; 
+  top: 5rem;
+  left: -7rem;
 }
 
 .home__button {
@@ -89,6 +113,7 @@ body {
   text-decoration: none;
   border: 1px solid var(--pink);
   transition: background 0.5s;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .primary {
