@@ -56,6 +56,48 @@ body {
 
 .shack {
   color: var(--blue);
-  font-family: 'Lobster';
+  font-family: "Lobster";
   font-size: 2.5rem;
+}
+
+/* --------- HOME SECTION --------- */
+.home {
+  height: 100vh;
+}
+
+.home__container {
+  background-color: var(--pink);
+  color: var(--white);
+  padding: 10rem 2rem 5rem 2rem;
+}
+
+.home__title {
+  font-size: 4rem;
+}
+
+.home__description {
+    font-size: 2rem;
+}
+
+.home__button {
+  display: inline-block;
+  margin: 50px 2rem;
+  width: fit-content;
+  padding: 14px 50px;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid var(--pink);
+  transition: background 0.5s;
+}
+
+.primary {
+  background-color: var(--pink);
+  border: none;
+  color: var(--white);
+}
+
+.secondary {
+  color: var(--pink);
+  background-color: var(--white);
 }
