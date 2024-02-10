@@ -251,3 +251,22 @@ transform: scale(1.05);
 .card--choco {
   color: #341E19;
 }
+
+
+/* -------- Map Section ---------- */
+
+.map {
+  height: 100vh;
+}
+
+
+
+
+
+/*---------- Footer Section ----------*/
+
+footer {
+  height: 100px;
+  background-color: var(--pink);
+  color: white;
+}
