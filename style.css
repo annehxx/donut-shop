@@ -74,7 +74,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .home__title {
@@ -91,7 +90,7 @@ body {
 
 .home__blob {
   position: absolute;
-  width: 600px; 
+  width: 600px;
   top: 0;
   left: -10rem;
 }
@@ -99,7 +98,7 @@ body {
 .home__donut {
   position: relative;
   height: 550px;
-  z-index: 1; 
+  z-index: 1;
   top: 5rem;
   left: -7rem;
 }
@@ -128,42 +127,39 @@ body {
   background-color: var(--white);
 }
 
-
 /* ------- ABOUT SECTION -------- */
 
 .about {
-    height: 80vh;
-    background-color: var(--pink);
+  height: 80vh;
+  background-color: var(--pink);
 }
 
 .about__container {
-    background-color: var(--white);
-    display: flex;
-    justify-content: space-around;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-around;
 }
 
 .about__content {
-    width: 800px;
+  width: 800px;
 }
 
-
 .about__subtitle {
-    color: var(--blue);
-    font-size: 2rem;
+  color: var(--blue);
+  font-size: 2rem;
 }
 
 .about__title {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .about__description {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /* ------------- MENU SECTION ----------*/
 .menu__container {
   background-color: var(--white);
-
 }
 
 .menu__title {
@@ -195,8 +191,8 @@ body {
 }
 
 .card:hover {
-background-color: rgb(224, 224, 224);
-transform: scale(1.05);
+  background-color: rgb(224, 224, 224);
+  transform: scale(1.05);
 }
 
 .card__image {
@@ -230,7 +226,7 @@ transform: scale(1.05);
   border: none;
   font-size: 2rem;
   padding: 1rem 2rem;
-  color: var(--white); 
+  color: var(--white);
   border-bottom-right-radius: 2rem;
   border-top-left-radius: 2rem;
   cursor: pointer;
@@ -245,24 +241,47 @@ transform: scale(1.05);
 }
 
 .card--banana {
-  color: #EAB444;
+  color: #eab444;
 }
 
 .card--choco {
-  color: #341E19;
+  color: #341e19;
 }
-
 
 /* -------- Map Section ---------- */
 
 .map {
-  height: 100vh;
+  height: 80vh;
 }
 
+.map__container {
+  display: flex;
+  width: 1100px;
+  margin: 20rem auto;
+  margin-bottom: 0;
+  background-color: var(--blue);
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
 
+.map__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  margin-left: 2rem;
+}
 
+.map__title {
+  font-size: 3rem;
+}
 
+.map__description {
+  font-size: 1.5rem;
+  text-align: left;
 
+}
 /*---------- Footer Section ----------*/
 
 footer {
